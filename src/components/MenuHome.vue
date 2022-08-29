@@ -56,7 +56,7 @@
                             <v-list-item-icon>
                                 <v-icon>mdi-clock</v-icon>
                             </v-list-item-icon>
-                            <v-list-item-text class="">กลุ่มสาระการเรียนรู้ภาษาไทย</v-list-item-text>
+                            <v-list-item-title class="">กลุ่มสาระการเรียนรู้ภาษาไทย</v-list-item-title>
                         </v-list-item>
 
 
@@ -64,56 +64,56 @@
                             <v-list-item-icon>
                                 <v-icon>mdi-clock</v-icon>
                             </v-list-item-icon>
-                            <v-list-item-text>กลุ่มสาระการเรียนรู้ภาษาต่างประเทศ</v-list-item-text>
+                            <v-list-item-title>กลุ่มสาระการเรียนรู้ภาษาต่างประเทศ</v-list-item-title>
                         </v-list-item>
 
                         <v-list-item link active-class="menu-active my-1 py-1 me-1" to="/menu_2_2_3">
                             <v-list-item-icon>
                                 <v-icon>mdi-clock</v-icon>
                             </v-list-item-icon>
-                            <v-list-item-text>กลุ่มสาระการเรียนรู้วิทยาศาสตร์และเทคโนโลยี</v-list-item-text>
+                            <v-list-item-title>กลุ่มสาระการเรียนรู้วิทยาศาสตร์และเทคโนโลยี</v-list-item-title>
                         </v-list-item>
 
                         <v-list-item link active-class="menu-active my-1 py-1 me-1" to="/menu_2_2_4">
                             <v-list-item-icon>
                                 <v-icon>mdi-clock</v-icon>
                             </v-list-item-icon>
-                            <v-list-item-text>กลุ่มสาระการเรียนรู้คณิตศาสตร์</v-list-item-text>
+                            <v-list-item-title>กลุ่มสาระการเรียนรู้คณิตศาสตร์</v-list-item-title>
                         </v-list-item>
 
                         <v-list-item link active-class="menu-active my-1 py-1 me-1" to="/menu_2_2_5">
                             <v-list-item-icon>
                                 <v-icon>mdi-clock</v-icon>
                             </v-list-item-icon>
-                            <v-list-item-text>กลุ่มสาระการเรียนรู้การงานอาชีพ</v-list-item-text>
+                            <v-list-item-title>กลุ่มสาระการเรียนรู้การงานอาชีพ</v-list-item-title>
                         </v-list-item>
 
                         <v-list-item link active-class="menu-active my-1 py-1 me-1" to="/menu_2_2_6">
                             <v-list-item-icon>
                                 <v-icon>mdi-clock</v-icon>
                             </v-list-item-icon>
-                            <v-list-item-text>กลุ่มสาระการเรียนรู้สังคมศึกษา ศาสนา และวัฒธรรม</v-list-item-text>
+                            <v-list-item-title>กลุ่มสาระการเรียนรู้สังคมศึกษา ศาสนา และวัฒธรรม</v-list-item-title>
                         </v-list-item>
 
                         <v-list-item link active-class="menu-active my-1 py-1 me-1" to="/menu_2_2_7">
                             <v-list-item-icon>
                                 <v-icon>mdi-clock</v-icon>
                             </v-list-item-icon>
-                            <v-list-item-text>กลุ่มสาระการเรียนรู้ศิลปะ</v-list-item-text>
+                            <v-list-item-title>กลุ่มสาระการเรียนรู้ศิลปะ</v-list-item-title>
                         </v-list-item>
 
                         <v-list-item link active-class="menu-active my-1 py-1 me-1" to="/menu_2_2_8">
                             <v-list-item-icon>
                                 <v-icon>mdi-clock</v-icon>
                             </v-list-item-icon>
-                            <v-list-item-text>กลุ่มสาระการเรียนรู้สุขศึกษาและพลศึกษา</v-list-item-text>
+                            <v-list-item-title>กลุ่มสาระการเรียนรู้สุขศึกษาและพลศึกษา</v-list-item-title>
                         </v-list-item>
 
                         <v-list-item link active-class="menu-active my-1 py-1 me-1" to="/menu_2_2_9">
                             <v-list-item-icon>
                                 <v-icon>mdi-clock</v-icon>
                             </v-list-item-icon>
-                            <v-list-item-text>หลักสูตร (ปวช.)</v-list-item-text>
+                            <v-list-item-title>หลักสูตร (ปวช.)</v-list-item-title>
                         </v-list-item>
 
 
