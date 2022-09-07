@@ -17,7 +17,22 @@ import menu_2_2_9 from '@/views/bigmenu/menu_2_2_9.vue'
 import menu_2_3 from '@/views/bigmenu/menu_2_3.vue'
 import menu_2_4 from '@/views/bigmenu/menu_2_4.vue'
 import menu_2_5 from '@/views/bigmenu/menu_2_5.vue'
+import menu_2_6_1 from '@/views/bigmenu/menu_2_6_1.vue'
+import menu_2_6_2 from '@/views/bigmenu/menu_2_6_2.vue'
+import menu_2_6_3 from '@/views/bigmenu/menu_2_6_3.vue'
+import menu_2_7 from '@/views/bigmenu/menu_2_7'
+import menu_3_1 from '@/views/bigmenu/menu_3_1'
+import menu_3_2 from '@/views/bigmenu/menu_3_2'
+import menu_3_3 from '@/views/bigmenu/menu_3_3'
+import menu_3_4 from '@/views/bigmenu/menu_3_4'
+import menu_3_5 from '@/views/bigmenu/menu_3_5'
+import menu_3_6 from '@/views/bigmenu/menu_3_6'
+import menu_3_7 from '@/views/bigmenu/menu_3_7'
+import menu_3_8 from '@/views/bigmenu/menu_3_8'
 
+
+import PressRelease from '@/views/bigmenu/PressRelease'
+import ContactUs from '@/views/bigmenu/ContactUs'
 Vue.use(VueRouter)
 
 const routes = [
@@ -121,6 +136,84 @@ const routes = [
     name: 'menu_2_5',
     component: menu_2_5
   },
+  {
+    path: '/menu_2_6_1',
+    name: 'menu_2_6_1',
+    component: menu_2_6_1
+  },
+  {
+    path: '/menu_2_6_2',
+    name: 'menu_2_6_2',
+    component: menu_2_6_2
+  },
+  {
+    path: '/menu_2_6_3',
+    name: 'menu_2_6_3',
+    component: menu_2_6_3
+  },
+  {
+    path: '/menu_2_7',
+    name: 'menu_2_7',
+    component: menu_2_7
+  },
+  {
+    path: '/menu_3_1',
+    name: 'menu_3_1',
+    component: menu_3_1
+  },
+
+  {
+    path: '/menu_3_2',
+    name: 'menu_3_2',
+    component: menu_3_2
+  },
+  {
+    path: '/menu_3_3',
+    name: 'menu_3_3',
+    component: menu_3_3
+  },
+  {
+    path: '/menu_3_4',
+    name: 'menu_3_4',
+    component: menu_3_4
+  },
+  {
+    path: '/menu_3_5',
+    name: 'menu_3_5',
+    component: menu_3_5
+  },
+  {
+    path: '/menu_3_6',
+    name: 'menu_3_6',
+    component: menu_3_6
+  },
+  {
+    path: '/menu_3_7',
+    name: 'menu_3_7',
+    component: menu_3_7
+  },
+  {
+    path: '/menu_3_8',
+    name: 'menu_3_8',
+    component: menu_3_8
+  },
+
+
+  
+
+  {
+    path: '/PressRelease',
+    name: 'PressRelease',
+    component: PressRelease
+  },
+
+  
+  {
+    path: '/ContactUs',
+    name: 'ContactUs',
+    component: ContactUs
+  },
+
 
   {
     path: '/about',

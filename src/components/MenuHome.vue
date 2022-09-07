@@ -28,92 +28,80 @@
                     <v-list-item-title>หน้าแรก</v-list-item-title>
                 </v-list-item>
 
-                <v-list-group :value="true" prepend-icon="mdi-account-circle" >
+                <!-- <v-list-group :value="true"  prepend-icon="mdi-account-circle"> -->
+                <v-list-group prepend-icon="mdi-account-circle">
 
-                        <template v-slot:activator >
-                            <v-list-item-title><router-link  to="menu_2">ข้อมูลพื้นฐาน</router-link></v-list-item-title>
-                        </template>
+
+                    <template v-slot:activator>
+                        <v-list-item-title>
+                            <router-link to="menu_2">ข้อมูลพื้นฐาน</router-link>
+                        </v-list-item-title>
+                    </template>
 
 
                     <v-list-item active-class="menu-active my-1 me-1" to="/menu_2_1">
                         <v-list-item-icon>
-                            <v-icon></v-icon>
+                            <v-icon>mdi-database</v-icon>
                         </v-list-item-icon>
                         <v-list-item-content>
-                            <v-list-item-title>ข้อมูลผู้บริหาร</v-list-item-title>
+                            ข้อมูลผู้บริหาร
                         </v-list-item-content>
                     </v-list-item>
 
 
                     <v-list-group :value="true" no-action sub-group>
                         <template v-slot:activator>
-                            <v-list-item-content >
-                                <v-list-item-title><router-link to="/menu_2_2">ข้อมูลครู</router-link></v-list-item-title>
+                            <v-list-item-content>
+                                <v-list-item-title>
+                                    <router-link to="/menu_2_2">ข้อมูลครู</router-link>
+                                </v-list-item-title>
                             </v-list-item-content>
                         </template>
 
                         <v-list-item link active-class="menu-active my-1 py-1 me-1  " to="/menu_2_2_1">
-                            <v-list-item-icon>
-                                <v-icon>mdi-clock</v-icon>
-                            </v-list-item-icon>
-                            <v-list-item-title class="">กลุ่มสาระการเรียนรู้ภาษาไทย</v-list-item-title>
+
+                            <v-list-item-content>กลุ่มสาระการเรียนรู้ภาษาไทย</v-list-item-content>
                         </v-list-item>
 
 
                         <v-list-item link active-class="menu-active my-1 py-1 me-1" to="/menu_2_2_2">
-                            <v-list-item-icon>
-                                <v-icon>mdi-clock</v-icon>
-                            </v-list-item-icon>
-                            <v-list-item-title>กลุ่มสาระการเรียนรู้ภาษาต่างประเทศ</v-list-item-title>
+
+                            <v-list-item-content>กลุ่มสาระการเรียนรู้ภาษาต่างประเทศ</v-list-item-content>
                         </v-list-item>
 
                         <v-list-item link active-class="menu-active my-1 py-1 me-1" to="/menu_2_2_3">
-                            <v-list-item-icon>
-                                <v-icon>mdi-clock</v-icon>
-                            </v-list-item-icon>
-                            <v-list-item-title>กลุ่มสาระการเรียนรู้วิทยาศาสตร์และเทคโนโลยี</v-list-item-title>
+
+                            <v-list-item-content>กลุ่มสาระการเรียนรู้วิทยาศาสตร์และเทคโนโลยี</v-list-item-content>
                         </v-list-item>
 
                         <v-list-item link active-class="menu-active my-1 py-1 me-1" to="/menu_2_2_4">
-                            <v-list-item-icon>
-                                <v-icon>mdi-clock</v-icon>
-                            </v-list-item-icon>
-                            <v-list-item-title>กลุ่มสาระการเรียนรู้คณิตศาสตร์</v-list-item-title>
+
+                            <v-list-item-content>กลุ่มสาระการเรียนรู้คณิตศาสตร์</v-list-item-content>
                         </v-list-item>
 
                         <v-list-item link active-class="menu-active my-1 py-1 me-1" to="/menu_2_2_5">
-                            <v-list-item-icon>
-                                <v-icon>mdi-clock</v-icon>
-                            </v-list-item-icon>
-                            <v-list-item-title>กลุ่มสาระการเรียนรู้การงานอาชีพ</v-list-item-title>
+
+                            <v-list-item-content>กลุ่มสาระการเรียนรู้การงานอาชีพ</v-list-item-content>
                         </v-list-item>
 
                         <v-list-item link active-class="menu-active my-1 py-1 me-1" to="/menu_2_2_6">
-                            <v-list-item-icon>
-                                <v-icon>mdi-clock</v-icon>
-                            </v-list-item-icon>
-                            <v-list-item-title>กลุ่มสาระการเรียนรู้สังคมศึกษา ศาสนา และวัฒธรรม</v-list-item-title>
+
+                            <v-list-item-content>กลุ่มสาระการเรียนรู้สังคมศึกษา ศาสนา และวัฒธรรม</v-list-item-content>
                         </v-list-item>
 
                         <v-list-item link active-class="menu-active my-1 py-1 me-1" to="/menu_2_2_7">
-                            <v-list-item-icon>
-                                <v-icon>mdi-clock</v-icon>
-                            </v-list-item-icon>
-                            <v-list-item-title>กลุ่มสาระการเรียนรู้ศิลปะ</v-list-item-title>
+
+                            <v-list-item-content>กลุ่มสาระการเรียนรู้ศิลปะ</v-list-item-content>
                         </v-list-item>
 
                         <v-list-item link active-class="menu-active my-1 py-1 me-1" to="/menu_2_2_8">
-                            <v-list-item-icon>
-                                <v-icon>mdi-clock</v-icon>
-                            </v-list-item-icon>
-                            <v-list-item-title>กลุ่มสาระการเรียนรู้สุขศึกษาและพลศึกษา</v-list-item-title>
+
+                            <v-list-item-content>กลุ่มสาระการเรียนรู้สุขศึกษาและพลศึกษา</v-list-item-content>
                         </v-list-item>
 
                         <v-list-item link active-class="menu-active my-1 py-1 me-1" to="/menu_2_2_9">
-                            <v-list-item-icon>
-                                <v-icon>mdi-clock</v-icon>
-                            </v-list-item-icon>
-                            <v-list-item-title>หลักสูตร (ปวช.)</v-list-item-title>
+
+                            <v-list-item-content>หลักสูตร (ปวช.)</v-list-item-content>
                         </v-list-item>
 
 
@@ -140,10 +128,10 @@
 
                     <v-list-item to="/menu_2_5" active-class="menu-active my-1 me-1">
                         <v-list-item-icon>
-                            <v-icon></v-icon>
+                            <v-icon>mdi-database</v-icon>
                         </v-list-item-icon>
                         <v-list-item-content>
-                            <v-list-item-title>แผนพัฒนาคุณภาพการศึกษา</v-list-item-title>
+                            แผนพัฒนาคุณภาพการศึกษา
                         </v-list-item-content>
                     </v-list-item>
 
@@ -154,15 +142,120 @@
                             </v-list-item-content>
                         </template>
 
-                        <v-list-item link to="/dataexecutive" active-class="menu-active my-1 me-1">
-                            <v-list-item-title>xxxx</v-list-item-title>
-
-                            <v-list-item-icon>
-                                <v-icon v-text="'mdi-delete'"></v-icon>
-                            </v-list-item-icon>
+                        <v-list-item link to="/menu_2_6_1" active-class="menu-active my-1 me-1">
+                            <v-list-item-title>พรบ.การศึกษา</v-list-item-title>
                         </v-list-item>
+
+                        <v-list-item link to="/menu_2_6_2" active-class="menu-active my-1 me-1">
+                            <v-list-item-title>พรบ.กระทรวงศึกษาธิการ</v-list-item-title>
+                        </v-list-item>
+
+                        <v-list-item link to="/menu_2_6_3" active-class="menu-active my-1 me-1">
+                            <v-list-item-title>กฏหมายอื่น ๆ</v-list-item-title>
+                        </v-list-item>
+
                     </v-list-group>
+
+                    <v-list-item to="/menu_2_7" active-class="menu-active my-1 me-1">
+                        <v-list-item-icon>
+                            <v-icon>mdi-database</v-icon>
+                        </v-list-item-icon>
+                        <v-list-item-content>
+                            เจตจำนงสุจริตของผู้บริหาร
+                        </v-list-item-content>
+                    </v-list-item>
+
                 </v-list-group>
+            </v-list>
+
+
+
+            <v-list>
+                <v-list-group v-for="item in items" :key="item.title" v-model="item.active" :prepend-icon="item.action"
+                    no-action>
+                    <template v-slot:activator>
+                        <v-list-item-content>
+                            <v-list-item-title v-text="item.title"></v-list-item-title>
+                        </v-list-item-content>
+                    </template>
+
+                    <v-list-item v-for="child in item.items" :key="child.title" :to="child.to">
+                        <v-list-item-content>
+                            <v-list-item-title v-text="child.title"></v-list-item-title>
+                        </v-list-item-content>
+                    </v-list-item>
+                </v-list-group>
+            </v-list>
+
+            <v-list>
+                <v-list-group v-for="item in items_2" :key="item.title" v-model="item.active"
+                    :prepend-icon="item.action" no-action>
+                    <template v-slot:activator>
+                        <v-list-item-content>
+                            <v-list-item-title v-text="item.title"></v-list-item-title>
+                        </v-list-item-content>
+                    </template>
+
+                    <v-list-item v-for="child in item.items" :key="child.title">
+                        <v-list-item-content>
+                            <v-list-item-title v-text="child.title"></v-list-item-title>
+                        </v-list-item-content>
+                    </v-list-item>
+                </v-list-group>
+            </v-list>
+
+            <v-list>
+                <v-list-group v-for="item in items_3" :key="item.title" v-model="item.active"
+                    :prepend-icon="item.action" no-action>
+                    <template v-slot:activator>
+                        <v-list-item-content>
+                            <v-list-item-title v-text="item.title"></v-list-item-title>
+                        </v-list-item-content>
+                    </template>
+
+                    <v-list-item v-for="child in item.items" :key="child.title">
+                        <v-list-item-content>
+                            <v-list-item-title v-text="child.title"></v-list-item-title>
+                        </v-list-item-content>
+                    </v-list-item>
+                </v-list-group>
+            </v-list>
+
+            <v-list>
+                <v-list-group v-for="item in items_4" :key="item.title" v-model="item.active"
+                    :prepend-icon="item.action" no-action>
+                    <template v-slot:activator>
+                        <v-list-item-content>
+                            <v-list-item-title  v-text="item.title"></v-list-item-title>
+                        </v-list-item-content>
+                    </template>
+
+                    <v-list-item v-for="child in item.items" :key="child.title">
+                        <v-list-item-content>
+                            <v-list-item-title v-text="child.title"></v-list-item-title>
+                        </v-list-item-content>
+                    </v-list-item>
+                </v-list-group>
+            </v-list>
+
+            <v-list>
+                <v-list-item to="/PressRelease" active-class="menu-active me-1">
+                    <v-list-item-icon>
+                        <v-icon>mdi-application-edit</v-icon>
+                    </v-list-item-icon>
+
+                    <v-list-item-title>ข่าวประชาสัมพันธ์</v-list-item-title>
+                </v-list-item>
+            </v-list>
+
+            <v-list>
+                <v-list-item to="/ContactUs"  active-class="menu-active me-1">
+                    <v-list-item-icon>
+                        <v-icon>mdi-account-tie-hat</v-icon>
+                    </v-list-item-icon>
+
+                    <v-list-item-title>ติดต่อเรา</v-list-item-title>
+                </v-list-item>
             </v-list>
 
 
@@ -179,7 +272,79 @@
 export default {
     data() {
         return {
-            drawer: null
+            drawer: null,
+
+            items: [
+                {
+                    action: 'mdi-silverware-fork-knife',
+                    active: false,
+                    items: [
+                        { title: 'ข้อมูลการบริหาร',to:'/menu_3_1' },
+                        { title: 'แผนดำเนินงานประจำปี' ,to:'/menu_3_2'},
+                        { title: 'รายงานผลกำกับติดตามการดำเนินงานประจำปี รอบ 6 เดือน',to:'/menu_3_3' },
+                        { title: 'รายงานผลการดำเนินงานประจำปี',to:'/menu_3_4' },
+                        { title: 'คู่มือหรือมาตรฐานการปฏิบัติงาน',to:'/menu_3_5' },
+                        { title: 'คู่มือหรือมาตรฐานการให้บริการ' ,to:'/menu_3_6'},
+                        { title: 'ข้อมูลเชิงสถิติการให้บริการ' ,to:'/menu_3_7'},
+                        { title: 'รายงานผลการสำรวจความพึงพอใจการให้บริการ' ,to:'/menu_3_8'},
+                    ],
+                    title: 'ข้อมูลการบริหาร',
+                },
+            ],
+            items_2: [
+                {
+                    action: 'mdi-clock',
+                    active: false,
+                    items: [
+                    { title: 'ข้อมูลบริหารงบประมาณ' },
+                        { title: 'แผนการใช้จ่ายงบประมาณประจำปี' },
+                        { title: 'รายงานการกำกับติดตามการใช้จ่ายงบประมาณรอบ 6 เดือน' },
+                        { title: 'รายงานผลการใช้จ่ายงบประมาณประจำปี' },
+                        { title: 'แผนการจัดซื้อจัดจ้าง' },
+                        { title: 'ประกาศต่าง ๆ เกี่ยวกับการจัดซื้อจัดจ้าง' },
+                        { title: 'สรุปผลการจัดซื้อจัดจ้าง' },
+                        { title: 'รายงานผลการจัดซื้อจัดจ้าง' },
+                    ],
+                    title: 'ข้อมูลบริหารงบประมาณ',
+                },
+            ],
+            items_3: [
+                {
+                    action: 'mdi-group',
+                    active: false,
+                    items: [
+                    { title: 'ข้อมูลทรัพยากรบุคคล' },
+                        { title: 'นโยบายการบริหารทรัพยากรบุคคล' },
+                        { title: 'การดำเนินการตามนโยบายการบริหารทรัพยากรบุคคล' },
+                        { title: 'หลักเกณฑ์การบริหารและพัฒนาทรัพยากรบุคคล' },
+                        { title: 'รายงานผลการบริหารและพัฒนาทรัพยากรบุคคลประจำปี' },
+                   
+                    ],
+                    title: 'ข้อมูลทรัพยากรบุคคล',
+                },
+            ],
+            items_4: [
+                {
+                    action: 'mdi-car',
+                    active: false,
+                    items: [
+                    { title: 'การส่งเสริมความโปร่งใส' },
+                        { title: 'แนวปฏิบัติการจัดการเรื่องร้องเรียนทุจริตและประพฤติมิชอบ' },
+                        { title: 'ช่องทางแจ้งเรื่องร้องเรียนการทุจริตและประพฤติมิชอบ' },
+                        { title: 'ข้อมูลเชิงสถิติเรื่องร้องเรียนการทุจริตและประพฤติมิชอบ' },
+                        { title: 'ช่องทางการรับฟังความคิดเห็น' },
+                        { title: 'การเปิดโอกาสให้เกิดการมีส่วนร่วม' },
+                        { title: 'การประเมินความเสี่ยงการทุจริตประจำปี' },
+                        { title: 'การดำเนินการเพื่อจัดการความเสี่ยงทุจริต' },
+                        { title: 'การเสริมสร้างวัฒนธรรมองค์กร' },
+                        { title: 'แผนปฏิบัติการป้องกันการทุจริตประจำปี' },
+                        { title: 'รายงานการกำกับติดตาม รอบ 6 เดือน' },
+                        { title: 'รายงานผลการดำเนินการป้องกันการทุจริตประจำปี' },
+                   
+                    ],
+                    title: 'การส่งเสริมความโปร่งใส',
+                },
+            ]
         }
     }
 }
